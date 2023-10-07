@@ -1,0 +1,113 @@
+/*
+font family of lyrics font-family: 'Nanum Pen Script', cursive;
+font-family: 'Covered By Your Grace', cursive;
+ font-family: 'Rock Salt', cursive;
+*/
+
+header {
+    background-color: #0e0e0e;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+header h1{
+    color: gold;
+    font-size: 40px;
+    margin-top: 10px;
+    font-family: 'Rock Salt', cursive;
+}
+header h2{
+    color: #f8f8f8;
+    font-size: 10px;
+    margin-top: 80px;
+}
+body{
+
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    background:#0e0e0e;
+    margin:0;
+}
+main {
+    margin-top: 10%;
+}
+.lyrics{
+    margin:50px;
+}
+.video{
+    grid-column: 2;
+    position: fixed;
+    left: 50%;
+    top:28%;
+}
+p{
+    margin: 10px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 35px;
+    color: #f8f8f8;
+}
+h2,h3{
+    font-family: 'Rock Salt', cursive;
+    color: gold;
+    font-size: 20px;
+}
+.rivers{
+    color:#40e0d0;
+    font-family: 'Covered By Your Grace', cursive;
+    font-weight: bold;
+}
+.fire{
+    color:#ffbf00;
+    font-family: 'Covered By Your Grace', cursive;
+    font-weight: bold;
+}
+.love{
+    color: red;
+    font-family: 'Covered By Your Grace', cursive;
+    font-weight: bold;
+}
+.party{
+    color: deeppink;
+    font-family: 'Covered By Your Grace', cursive;
+    font-weight: bold;
+}
+.wild{
+    color:green;
+    font-family: 'Covered By Your Grace', cursive;
+    font-weight: bold;
+}
+.safari{
+    color:darkgreen;
+    font-family: 'Covered By Your Grace', cursive;
+    font-weight: bold;
+}
+.silver{
+    color:silver;
+    font-family: 'Covered By Your Grace', cursive;
+    font-weight: bold;
+}
+.post-chorus p{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.slow{
+    font-family: 'Covered By Your Grace', cursive;
+    font-weight: lighter;
+}
+.body{
+    color:tan;
+}
+.lyrics h2{
+    font-size: 45px;
+}
+.dance-floor {
+    background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text; /* For webkit-based browsers (e.g., Chrome, Safari) */
+    background-clip: text;
+    color: transparent;
+}
